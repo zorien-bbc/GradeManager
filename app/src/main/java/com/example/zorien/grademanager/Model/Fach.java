@@ -35,7 +35,7 @@ public class Fach {
         this.bezeichnung = bezeichnung;
     }
 
-    public ArrayList<Kurs> getKurse() {
+    public ArrayList<com.example.zorien.grademanager.model.Kurs> getKurse() {
         return kurse;
     }
 
