@@ -9,15 +9,33 @@ public class Fach {
     private int fachid;
     private String fachkurz;
     private String bezeichnung;
+    private double schnitt;
     private ArrayList<Kurs> kurse;
+
     //caner
     public Fach() {
     }
 
-    private Boolean selectFachByID(int currentID){return false;}
-    public Boolean updateFach(int currentID){return false;}
-    public int insertFach(){return 0;}
-    public Boolean deleteFach(){return false;}
+    public Fach(String bezeichnung, double schnitt) {
+        this.bezeichnung = bezeichnung;
+        this.schnitt = schnitt;
+    }
+
+    private Boolean selectFachByID(int currentID) {
+        return false;
+    }
+
+    public Boolean updateFach(int currentID) {
+        return false;
+    }
+
+    public int insertFach() {
+        return 0;
+    }
+
+    public Boolean deleteFach() {
+        return false;
+    }
 
     public String getFachkurz() {
         return fachkurz;
@@ -25,6 +43,14 @@ public class Fach {
 
     public void setFachkurz(String fachkurz) {
         this.fachkurz = fachkurz;
+    }
+
+    public double getSchnitt() {
+        return schnitt;
+    }
+
+    public void setSchnitt(double schnitt) {
+        this.schnitt = schnitt;
     }
 
     public String getBezeichnung() {

@@ -12,19 +12,33 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 import com.example.zorien.grademanager.R;
+import com.example.zorien.grademanager.arrayadapter.FachArrayAdapter;
+import com.example.zorien.grademanager.model.Fach;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-    //Hello it's me
+    ListView listView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+        listView = (ListView) findViewById(R.id.listView);
+        List<Fach> faecher = new ArrayList<>();
+        faecher.add(new Fach("Mathe", 5.2));
+        faecher.add(new Fach("Englisch", 5.0));
+        faecher.add(new Fach("VBR", 4.2));
+        FachArrayAdapter fachArrayAdapter = new FachArrayAdapter(getApplicationContext(), getLayoutInflater(), faecher);
+        listView.setAdapter(fachArrayAdapter);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
