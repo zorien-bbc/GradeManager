@@ -17,23 +17,29 @@
 
             <TextView
                 android:id="@+id/fachName"
-                android:layout_width="290dp"
+                android:layout_width="0dp"
+                android:layout_weight=".50"
                 android:layout_height="match_parent"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="14dp"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <ImageView
-                android:layout_width="50dp"
+                android:layout_width="25dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView2"
-                android:src="@drawable/avarage" />
+                android:src="@drawable/avarage"
+                android:layout_marginTop="-3dp"
+                android:layout_marginRight="-20dp"
+                />
 
             <TextView
                 android:id="@+id/fachSchnitt"
-                android:layout_width="40dp"
+                android:layout_width="0dp"
+                android:layout_weight=".10
+                "
                 android:textAlignment="viewEnd"
                 android:layout_height="match_parent"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="13.8dp"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
         </LinearLayout>
     </LinearLayout>
