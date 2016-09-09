@@ -1,4 +1,4 @@
-package com.example.zorien.grademanager.ArrayAdapter;
+package com.example.zorien.grademanager.arrayadapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 
 import com.example.zorien.grademanager.R;
+import com.example.zorien.grademanager.model.Fach;
 
 import java.util.List;
 
