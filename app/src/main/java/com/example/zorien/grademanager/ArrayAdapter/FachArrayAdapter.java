@@ -31,7 +31,7 @@ public class FachArrayAdapter extends ArrayAdapter<Fach> {
         convertView = inflater.inflate(R.layout.fach_adapter, null);
         Fach actualFach = items.get(pos);
         ((TextView) convertView.findViewById(R.id.fachName)).setText(actualFach.getBezeichnung());
-        ((TextView) convertView.findViewById(R.id.fachSchnitt)).setText(""+actualFach.getSchnitt());
+        ((TextView) convertView.findViewById(R.id.fachSchnitt)).setText("" + actualFach.getSchnitt());
         return convertView;
     }
 }
