@@ -10,6 +10,7 @@
     <string name="defaultGrade">3.5</string>
     <string name="defaultWeightning">1.0x</string>
     <string name="add">Add</string>
+    <string name="fach_hinzuf_gen">Fach hinzufügen</string>
 
     <string-array name="planets_array">
         <item>Fach wählen</item>
