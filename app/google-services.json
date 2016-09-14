@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "285153153426",
+    "firebase_url": "https://grademanager-d52af.firebaseio.com",
+    "project_id": "grademanager-d52af",
+    "storage_bucket": "grademanager-d52af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285153153426:android:293cce0fc808c949",
+        "android_client_info": {
+          "package_name": "com.example.zorien.grademanager",
+          "certificate_hash": "6C4A0219109356F0FB385685DEF744328EAD11B8"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285153153426-ipl2bodmj14cutb5ka089iuhvfmqrc2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7oUZzZuZ-_Ek6A8Pq8R51KEe79CVD1-g"
+        } 
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
